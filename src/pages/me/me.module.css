@@ -1,0 +1,95 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.img{
+    width: 300px;
+    aspect-ratio: 1/1;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    align-self: center;
+}
+
+.card{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;    
+}
+
+.card p{
+    max-width: 600px;
+    border-radius: 5px;
+    border: solid 0px #E6EDF4;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.button{
+    font-size: 20px;
+    padding: 5px 15px;
+    font-weight: bold;
+    color: #23272E;
+    background-color:#A778DD ;
+    border-radius:5px;
+    border: none;
+    cursor: pointer;
+}
+
+.secondary{
+    background-color:transparent ;
+    border: solid 2px #FF8F66;
+    color: #FF8F66;
+}
+
+.button:hover{
+    filter: brightness(130%);
+}
+
+.buttonContainer{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+@media only screen and (max-width: 600px){
+    .main{
+        padding: 15px;
+    }
+    .button{
+        width: 100%;
+    }
+    .buttonContainer{
+        margin-top: 25px;
+        justify-content: center;
+    }
+}
+.socialContainter{
+
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    align-self: stretch;
+    
+}
+
+.social:hover{
+    filter: brightness(80%)
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+
+.otro{
+    width: 100%;
+}
+
+.contactInfo{
+    width: 100%;
+    
+}
