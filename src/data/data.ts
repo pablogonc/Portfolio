@@ -99,7 +99,7 @@ export const proyects = [
     '• Encontrar un hogar de tránsito.',
     img: 'https://static.fundacion-affinity.org/cdn/farfuture/wfzHUAPksUOWePuvajegv_W_DwdxDophyz5qyiV1EiY/mtime:1528830294/sites/default/files/la-adopcion-una-nueva-oportunidad-a-las-mascotas-abandonadas.jpg',
     link: 'https://pablogonc.github.io/frontTPDDS/templates/index.html',
-    repo: 'https://github.com/pablogonc/SOTP',
+    repo: 'https://github.com/pablogonc/TP-DDS',
     tags: ['java', 'spring', 'vueJS', 'JavaScript', 'RESTful', 'maven', 'MVC', 'Design Patterns']
   },
   {
@@ -114,8 +114,8 @@ export const proyects = [
     name: 'Portafolio',
     description: 'Portafolio personal',
     img: 'portfolio.png',
-    link: 'https://portafolio-zaa66xnsca-uc.a.run.app/',
-    repo: 'https://github.com/pablogonc/Portafolio',
+    link: 'https://portfolio-zaa66xnsca-uc.a.run.app/',
+    repo: 'https://github.com/pablogonc/Portfolio',
     tags: ['typescript', 'react', 'docker', 'node', 'HTML', 'CSS', 'cloudrun']
   }
 ]
