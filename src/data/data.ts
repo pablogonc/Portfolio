@@ -139,7 +139,7 @@ export const Me = {
     {
       name: 'Universidad Tecnologica Nacional',
       start: '2019',
-      end: 'actual',
+      end: 'en curso',
       title: 'Ingenieria en sistemas de informacion'
     }
   ]
