@@ -1,6 +1,5 @@
 import { proyects } from '../../data/data'
 import styles from './Expirience.module.css'
-import github from './githubLogo.svg'
 import redirect from './redirect.svg'
 export const Expirience: React.FC<{}> = () => {
   return (
@@ -23,7 +22,7 @@ export const Expirience: React.FC<{}> = () => {
               ))}
             </div>
             <p style={{ whiteSpace: 'break-spaces' }}>{description}</p>
-            <a href={repo} target='_blank' rel='noreferrer'><button className={styles.button}>ver repositorio</button></a>
+            <a href={repo} target='_blank' rel='noreferrer' className={styles.button}>ver repositorio</a>
           </div>
 
         </div>

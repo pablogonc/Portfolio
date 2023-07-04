@@ -29,7 +29,7 @@ export const Me: React.FC<{}> = () => {
         <p>{yo.mail}</p>
 
         <div className={styles.buttonContainer}>
-          <a href='CV - Pablo Goncalves.pdf' download> <button className={styles.button}>Descargar CV</button> </a>
+          <a href='CV - Pablo Goncalves.pdf' className={styles.button} download> Descargar CV </a>
         </div>
 
       </div>
